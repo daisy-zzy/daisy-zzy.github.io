@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 张之昀 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -22,13 +19,15 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  enabled: false
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm a Master's student in **Machine Learning** at [Carnegie Mellon University](https://www.cmu.edu/). I'm currently interning as a Machine Learning Engineer at **TikTok's Recommendation Group**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in **LLM reasoning**, **healthcare AI**, and **multimodal learning**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At CMU, I am fortunate to work in [Prof. Chenyan Xiong](https://www.cs.cmu.edu/~cx/)'s lab, where my independent study focuses on training LLMs for faithful, evidence-based medical reasoning. Previously, I was a visiting student in [Prof. Rose Yu](https://roseyu.com/)'s lab at UC San Diego, working on faster and more reliable reverse latent space optimization for SO(3)-equivariant 3D small molecule generation.
+
+Prior to CMU, I received my Bachelor's degree with honors in Computer Science and Technology from [Zhejiang University](https://www.zju.edu.cn/english/), where I was advised by [Prof. Jie Yang](https://scholar.harvard.edu/jieyang) at Harvard on large-scale clinical NLP datasets. I also interned at **Alibaba DAMO Academy**, working on multimodal pretraining and inference for medical data under limited modality settings.
