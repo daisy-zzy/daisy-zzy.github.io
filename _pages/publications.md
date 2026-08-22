@@ -13,7 +13,13 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-<div class="publications">
+<style>
+  .bibliography-only .links > a:not(.bibtex) {
+    display: none;
+  }
+</style>
+
+<div class="publications bibliography-only">
 
 {% bibliography %}
 
